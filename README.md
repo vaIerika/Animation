@@ -40,3 +40,28 @@ if let animation = fascinatingAnimation {
 > Design by [Brandi](https://dribbble.com/shots/14092869-Blue)
 >
 
+<br>
+
+#### **Circular Chart** 
+[ 🔨 Source code](./CircularChart/)
+
+```swift
+        Circle()
+            .trim(from: showAnimation ? (1 - value) : 0.99, to: 1)
+            .stroke(linearGradient, style: StrokeStyle(lineWidth: 12, lineCap: .round))
+            .rotationEffect(.degrees(90))
+            .rotation3DEffect(
+                Angle(degrees: 180),
+                axis: (x: 1, y: 0, z: 0))
+            .frame(width: width, height: width)
+            .animation(.easeOut(duration: 0.7))
+            .onTapGesture {
+                showAnimation.toggle()
+            }
+```
+
+<img src="Images/CircularChart.gif" width="300px"/>
+
+>
+> Based on tutorial from [DesignCode](https://www.youtube.com/watch?v=6PFYMUL8uQY)
+>
