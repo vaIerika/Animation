@@ -10,6 +10,20 @@ if let animation = fascinatingAnimation {
 
 
 <br>
+## Books Solutions 
+
+#### **SwiftUI Animation** 
+
+[ 🔨 Source code](./BookSolutions_QuickStart/)
+
+
+**Author**
+
+[*SwiftUI Animation Quick Start*](https://www.bigmountainstudio.com/courses/swiftui-animations-free) by *Mark Moeykens*, Big Montains Studio
+
+
+
+<br>
 
 ## Projects by Tutorials
 <br>
