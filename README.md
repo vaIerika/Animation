@@ -10,9 +10,13 @@ if let animation = fascinatingAnimation {
 
 
 <br>
+
 ## Books Solutions 
 
-#### **SwiftUI Animation** 
+
+#### **Book: SwiftUI Animation Quick Start** 
+
+Solutions of challenges.
 
 [ 🔨 Source code](./BookSolutions_QuickStart/)
 
