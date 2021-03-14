@@ -22,7 +22,7 @@ struct ContentView: View {
                 NavigationLink(
                     destination: MoveCircleShape(),
                     label: {
-                        Text("Challenge 1")
+                        Text("Challenge 1. Move Circle")
                     })
                     .padding(.top, 10)
                     .padding(.bottom, 20)
@@ -69,11 +69,67 @@ struct ContentView: View {
                     NavigationLink(
                         destination: LoginForm(),
                         label: {
-                            Text("Challenge 2")
+                            Text("Challenge 2. Login Form")
                         })
                 }
                 .padding(.top, 10)
                 .padding(.bottom, 20)
+                
+                /// chapter 3
+                Text("Chapter 3. Animation triggers")
+                    .font(.title2)
+                VStack(alignment: .leading) {
+                    NavigationLink(
+                        destination: ButtonMenuView(),
+                        label: {
+                            Text("Button. Menu")
+                        })
+                    NavigationLink(
+                        destination: SliderGlassView(),
+                        label: {
+                            Text("Slider. Glass half full")
+                        })
+                    NavigationLink(
+                        destination: RandomCirclesView(),
+                        label: {
+                            Text("Stepper. Randome circles position")
+                        })
+                    NavigationLink(
+                        destination: DradGestureMenuView(),
+                        label: {
+                            Text("Drag gesture. Menu")
+                        })
+                    NavigationLink(
+                        destination: LongPressGestureWavesView(),
+                        label: {
+                            Text("Long Press gesture. Waves")
+                        })
+                    NavigationLink(
+                        destination: GestureMagnificationView(),
+                        label: {
+                            Text("Magnification gesture. Zoom")
+                        })
+                    NavigationLink(
+                        destination: RotationGestureGearsView(),
+                        label: {
+                            Text("Rotation gesture. Gears")
+                        })
+                    NavigationLink(
+                        destination: ParallaxScrollingEffectView(),
+                        label: {
+                            Text("Parallax Scrolling Effect")
+                        })
+                    NavigationLink(
+                        destination: PopupView(),
+                        label: {
+                            Text("Exercise: Popup")
+                        })
+                    NavigationLink(
+                        destination: ZoomImageInArticle(),
+                        label: {
+                            Text("Challenge 3. Image in article")
+                        })
+                }
                 
                 Spacer()
             }.padding()
