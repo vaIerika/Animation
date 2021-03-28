@@ -130,6 +130,20 @@ struct ContentView: View {
                             Text("Challenge 3. Image in article")
                         })
                 }
+                .padding(.top, 10)
+                .padding(.bottom, 20)
+                
+                /// chapter 4
+                Text("Chapter 4. Animation options")
+                    .font(.title2)
+                
+                VStack(alignment: .leading) {
+                    NavigationLink(
+                        destination: RepeatingAnimationView(),
+                        label: {
+                            Text("Repeating Animation")
+                        })
+                }
                 
                 Spacer()
             }.padding()

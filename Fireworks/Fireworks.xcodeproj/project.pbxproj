@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B820F6DB260F83E900CC5508 /* FireworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F6DA260F83E900CC5508 /* FireworksApp.swift */; };
+		B820F6DD260F83E900CC5508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F6DC260F83E900CC5508 /* ContentView.swift */; };
+		B820F6DF260F83E900CC5508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B820F6DE260F83E900CC5508 /* Assets.xcassets */; };
+		B820F6E2260F83E900CC5508 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B820F6E1260F83E900CC5508 /* Preview Assets.xcassets */; };
+		B820F6F1260F957000CC5508 /* TwitterLikeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F6F0260F957000CC5508 /* TwitterLikeAnimation.swift */; };
+		B820F6F4260F984D00CC5508 /* Model_Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F6F3260F984D00CC5508 /* Model_Firework.swift */; };
+		B820F6F7260F9FD800CC5508 /* UIVIew_Fireworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F6F6260F9FD800CC5508 /* UIVIew_Fireworks.swift */; };
+		B820F706260FA08500CC5508 /* ClassicFireworkDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F705260FA08500CC5508 /* ClassicFireworkDemoViewController.swift */; };
+		B820F70A260FA24400CC5508 /* ClassicFireworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B820F709260FA24400CC5508 /* ClassicFireworkController.swift */; };
+		B86BCF7D260FA3100085C1B5 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF7C260FA3100085C1B5 /* CGPoint+Extensions.swift */; };
+		B86BCF87260FA3490085C1B5 /* CircleColorSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF83260FA3490085C1B5 /* CircleColorSparkViewFactory.swift */; };
+		B86BCF88260FA3490085C1B5 /* ImageSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF84260FA3490085C1B5 /* ImageSparkView.swift */; };
+		B86BCF89260FA3490085C1B5 /* CircleColorSparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF85260FA3490085C1B5 /* CircleColorSparkView.swift */; };
+		B86BCF8A260FA3490085C1B5 /* ImageSparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF86260FA3490085C1B5 /* ImageSparkViewFactory.swift */; };
+		B86BCF92260FA3640085C1B5 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF8E260FA3640085C1B5 /* ClassicSparkTrajectoryFactoryProtocol.swift */; };
+		B86BCF93260FA3640085C1B5 /* ClassicSparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF8F260FA3640085C1B5 /* ClassicSparkTrajectoryFactory.swift */; };
+		B86BCF94260FA3640085C1B5 /* ClassicFireworkAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF90260FA3640085C1B5 /* ClassicFireworkAnimator.swift */; };
+		B86BCF95260FA3640085C1B5 /* ClassicFirework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF91260FA3640085C1B5 /* ClassicFirework.swift */; };
+		B86BCFA1260FA3770085C1B5 /* SparkTrajectoryFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF99260FA3770085C1B5 /* SparkTrajectoryFactory.swift */; };
+		B86BCFA2260FA3770085C1B5 /* FireworkSparkScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9A260FA3770085C1B5 /* FireworkSparkScheduler.swift */; };
+		B86BCFA3260FA3770085C1B5 /* SparkViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9B260FA3770085C1B5 /* SparkViewFactory.swift */; };
+		B86BCFA4260FA3770085C1B5 /* FireworkSpark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9C260FA3770085C1B5 /* FireworkSpark.swift */; };
+		B86BCFA5260FA3770085C1B5 /* SparkViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9D260FA3770085C1B5 /* SparkViewAnimator.swift */; };
+		B86BCFA6260FA3770085C1B5 /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9E260FA3770085C1B5 /* SparkView.swift */; };
+		B86BCFA7260FA3770085C1B5 /* Firework.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCF9F260FA3770085C1B5 /* Firework.swift */; };
+		B86BCFA8260FA3770085C1B5 /* SparkTrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCFA0260FA3770085C1B5 /* SparkTrajectory.swift */; };
+		B86BCFAD260FA43D0085C1B5 /* ClassicFireworkButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86BCFAC260FA43D0085C1B5 /* ClassicFireworkButtonViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B820F6D7260F83E900CC5508 /* Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fireworks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B820F6DA260F83E900CC5508 /* FireworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireworksApp.swift; sourceTree = "<group>"; };
+		B820F6DC260F83E900CC5508 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B820F6DE260F83E900CC5508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B820F6E1260F83E900CC5508 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B820F6E3260F83E900CC5508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B820F6F0260F957000CC5508 /* TwitterLikeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterLikeAnimation.swift; sourceTree = "<group>"; };
+		B820F6F3260F984D00CC5508 /* Model_Firework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Firework.swift; sourceTree = "<group>"; };
+		B820F6F6260F9FD800CC5508 /* UIVIew_Fireworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIew_Fireworks.swift; sourceTree = "<group>"; };
+		B820F705260FA08500CC5508 /* ClassicFireworkDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkDemoViewController.swift; sourceTree = "<group>"; };
+		B820F709260FA24400CC5508 /* ClassicFireworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFireworkController.swift; sourceTree = "<group>"; };
+		B86BCF7C260FA3100085C1B5 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		B86BCF83260FA3490085C1B5 /* CircleColorSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkViewFactory.swift; sourceTree = "<group>"; };
+		B86BCF84260FA3490085C1B5 /* ImageSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkView.swift; sourceTree = "<group>"; };
+		B86BCF85260FA3490085C1B5 /* CircleColorSparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleColorSparkView.swift; sourceTree = "<group>"; };
+		B86BCF86260FA3490085C1B5 /* ImageSparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSparkViewFactory.swift; sourceTree = "<group>"; };
+		B86BCF8E260FA3640085C1B5 /* ClassicSparkTrajectoryFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactoryProtocol.swift; sourceTree = "<group>"; };
+		B86BCF8F260FA3640085C1B5 /* ClassicSparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicSparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		B86BCF90260FA3640085C1B5 /* ClassicFireworkAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFireworkAnimator.swift; sourceTree = "<group>"; };
+		B86BCF91260FA3640085C1B5 /* ClassicFirework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicFirework.swift; sourceTree = "<group>"; };
+		B86BCF99260FA3770085C1B5 /* SparkTrajectoryFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectoryFactory.swift; sourceTree = "<group>"; };
+		B86BCF9A260FA3770085C1B5 /* FireworkSparkScheduler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSparkScheduler.swift; sourceTree = "<group>"; };
+		B86BCF9B260FA3770085C1B5 /* SparkViewFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewFactory.swift; sourceTree = "<group>"; };
+		B86BCF9C260FA3770085C1B5 /* FireworkSpark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FireworkSpark.swift; sourceTree = "<group>"; };
+		B86BCF9D260FA3770085C1B5 /* SparkViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkViewAnimator.swift; sourceTree = "<group>"; };
+		B86BCF9E260FA3770085C1B5 /* SparkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		B86BCF9F260FA3770085C1B5 /* Firework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firework.swift; sourceTree = "<group>"; };
+		B86BCFA0260FA3770085C1B5 /* SparkTrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SparkTrajectory.swift; sourceTree = "<group>"; };
+		B86BCFAC260FA43D0085C1B5 /* ClassicFireworkButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFireworkButtonViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B820F6D4260F83E900CC5508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B820F6CE260F83E900CC5508 = {
+			isa = PBXGroup;
+			children = (
+				B820F6D9260F83E900CC5508 /* Fireworks */,
+				B820F6D8260F83E900CC5508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B820F6D8260F83E900CC5508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B820F6D7260F83E900CC5508 /* Fireworks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B820F6D9260F83E900CC5508 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				B820F6DA260F83E900CC5508 /* FireworksApp.swift */,
+				B820F6DC260F83E900CC5508 /* ContentView.swift */,
+				B820F6F6260F9FD800CC5508 /* UIVIew_Fireworks.swift */,
+				B820F6F3260F984D00CC5508 /* Model_Firework.swift */,
+				B820F6F0260F957000CC5508 /* TwitterLikeAnimation.swift */,
+				B820F705260FA08500CC5508 /* ClassicFireworkDemoViewController.swift */,
+				B86BCFAC260FA43D0085C1B5 /* ClassicFireworkButtonViewController.swift */,
+				B86BCF98260FA36C0085C1B5 /* Model Fireworks */,
+				B86BCF8D260FA3550085C1B5 /* ClassicFireworks */,
+				B86BCF82260FA33F0085C1B5 /* SparkViews */,
+				B86BCF7F260FA3260085C1B5 /* Extensions */,
+				B820F6DE260F83E900CC5508 /* Assets.xcassets */,
+				B820F6E3260F83E900CC5508 /* Info.plist */,
+				B820F6E0260F83E900CC5508 /* Preview Content */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		B820F6E0260F83E900CC5508 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B820F6E1260F83E900CC5508 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B86BCF7F260FA3260085C1B5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCF7C260FA3100085C1B5 /* CGPoint+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B86BCF82260FA33F0085C1B5 /* SparkViews */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCF85260FA3490085C1B5 /* CircleColorSparkView.swift */,
+				B86BCF83260FA3490085C1B5 /* CircleColorSparkViewFactory.swift */,
+				B86BCF84260FA3490085C1B5 /* ImageSparkView.swift */,
+				B86BCF86260FA3490085C1B5 /* ImageSparkViewFactory.swift */,
+			);
+			path = SparkViews;
+			sourceTree = "<group>";
+		};
+		B86BCF8D260FA3550085C1B5 /* ClassicFireworks */ = {
+			isa = PBXGroup;
+			children = (
+				B820F709260FA24400CC5508 /* ClassicFireworkController.swift */,
+				B86BCF91260FA3640085C1B5 /* ClassicFirework.swift */,
+				B86BCF90260FA3640085C1B5 /* ClassicFireworkAnimator.swift */,
+				B86BCF8F260FA3640085C1B5 /* ClassicSparkTrajectoryFactory.swift */,
+				B86BCF8E260FA3640085C1B5 /* ClassicSparkTrajectoryFactoryProtocol.swift */,
+			);
+			path = ClassicFireworks;
+			sourceTree = "<group>";
+		};
+		B86BCF98260FA36C0085C1B5 /* Model Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86BCF9F260FA3770085C1B5 /* Firework.swift */,
+				B86BCF9C260FA3770085C1B5 /* FireworkSpark.swift */,
+				B86BCF9A260FA3770085C1B5 /* FireworkSparkScheduler.swift */,
+				B86BCFA0260FA3770085C1B5 /* SparkTrajectory.swift */,
+				B86BCF99260FA3770085C1B5 /* SparkTrajectoryFactory.swift */,
+				B86BCF9E260FA3770085C1B5 /* SparkView.swift */,
+				B86BCF9D260FA3770085C1B5 /* SparkViewAnimator.swift */,
+				B86BCF9B260FA3770085C1B5 /* SparkViewFactory.swift */,
+			);
+			path = "Model Fireworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B820F6D6260F83E900CC5508 /* Fireworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B820F6E6260F83E900CC5508 /* Build configuration list for PBXNativeTarget "Fireworks" */;
+			buildPhases = (
+				B820F6D3260F83E900CC5508 /* Sources */,
+				B820F6D4260F83E900CC5508 /* Frameworks */,
+				B820F6D5260F83E900CC5508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fireworks;
+			productName = Fireworks;
+			productReference = B820F6D7260F83E900CC5508 /* Fireworks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B820F6CF260F83E900CC5508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B820F6D6260F83E900CC5508 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B820F6D2260F83E900CC5508 /* Build configuration list for PBXProject "Fireworks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B820F6CE260F83E900CC5508;
+			productRefGroup = B820F6D8260F83E900CC5508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B820F6D6260F83E900CC5508 /* Fireworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B820F6D5260F83E900CC5508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B820F6E2260F83E900CC5508 /* Preview Assets.xcassets in Resources */,
+				B820F6DF260F83E900CC5508 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B820F6D3260F83E900CC5508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86BCF87260FA3490085C1B5 /* CircleColorSparkViewFactory.swift in Sources */,
+				B820F70A260FA24400CC5508 /* ClassicFireworkController.swift in Sources */,
+				B86BCFA7260FA3770085C1B5 /* Firework.swift in Sources */,
+				B86BCFA2260FA3770085C1B5 /* FireworkSparkScheduler.swift in Sources */,
+				B820F6F4260F984D00CC5508 /* Model_Firework.swift in Sources */,
+				B86BCFA1260FA3770085C1B5 /* SparkTrajectoryFactory.swift in Sources */,
+				B86BCF7D260FA3100085C1B5 /* CGPoint+Extensions.swift in Sources */,
+				B820F6DD260F83E900CC5508 /* ContentView.swift in Sources */,
+				B820F6F7260F9FD800CC5508 /* UIVIew_Fireworks.swift in Sources */,
+				B86BCF92260FA3640085C1B5 /* ClassicSparkTrajectoryFactoryProtocol.swift in Sources */,
+				B86BCFA5260FA3770085C1B5 /* SparkViewAnimator.swift in Sources */,
+				B820F706260FA08500CC5508 /* ClassicFireworkDemoViewController.swift in Sources */,
+				B820F6F1260F957000CC5508 /* TwitterLikeAnimation.swift in Sources */,
+				B86BCF89260FA3490085C1B5 /* CircleColorSparkView.swift in Sources */,
+				B86BCFAD260FA43D0085C1B5 /* ClassicFireworkButtonViewController.swift in Sources */,
+				B86BCF8A260FA3490085C1B5 /* ImageSparkViewFactory.swift in Sources */,
+				B86BCFA6260FA3770085C1B5 /* SparkView.swift in Sources */,
+				B86BCFA8260FA3770085C1B5 /* SparkTrajectory.swift in Sources */,
+				B86BCFA3260FA3770085C1B5 /* SparkViewFactory.swift in Sources */,
+				B86BCF95260FA3640085C1B5 /* ClassicFirework.swift in Sources */,
+				B86BCF88260FA3490085C1B5 /* ImageSparkView.swift in Sources */,
+				B86BCFA4260FA3770085C1B5 /* FireworkSpark.swift in Sources */,
+				B86BCF94260FA3640085C1B5 /* ClassicFireworkAnimator.swift in Sources */,
+				B86BCF93260FA3640085C1B5 /* ClassicSparkTrajectoryFactory.swift in Sources */,
+				B820F6DB260F83E900CC5508 /* FireworksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B820F6E4260F83E900CC5508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B820F6E5260F83E900CC5508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B820F6E7260F83E900CC5508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fireworks/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DY52YYPUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fireworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fireworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B820F6E8260F83E900CC5508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Fireworks/Preview Content\"";
+				DEVELOPMENT_TEAM = 2DY52YYPUP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Fireworks/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.Fireworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B820F6D2260F83E900CC5508 /* Build configuration list for PBXProject "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B820F6E4260F83E900CC5508 /* Debug */,
+				B820F6E5260F83E900CC5508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B820F6E6260F83E900CC5508 /* Build configuration list for PBXNativeTarget "Fireworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B820F6E7260F83E900CC5508 /* Debug */,
+				B820F6E8260F83E900CC5508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B820F6CF260F83E900CC5508 /* Project object */;
+}
