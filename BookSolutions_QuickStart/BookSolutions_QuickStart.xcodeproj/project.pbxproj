@@ -18,6 +18,9 @@
 		B815765425FE65EF008A4DD8 /* ParallaxScrollingEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815765325FE65EF008A4DD8 /* ParallaxScrollingEffectView.swift */; };
 		B815765825FE6929008A4DD8 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815765725FE6928008A4DD8 /* PopupView.swift */; };
 		B815766025FE6F49008A4DD8 /* ZoomImageInArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815765F25FE6F49008A4DD8 /* ZoomImageInArticle.swift */; };
+		B8238B28261F6CF5004642D6 /* SequencingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8238B27261F6CF5004642D6 /* SequencingView.swift */; };
+		B8238B2B261F71E0004642D6 /* SpeedAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8238B2A261F71E0004642D6 /* SpeedAnimationView.swift */; };
+		B8238B2F261F761B004642D6 /* LoginFormSequenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8238B2E261F761B004642D6 /* LoginFormSequenceView.swift */; };
 		B85DE51A25FD164400A04A66 /* HueRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85DE51925FD164400A04A66 /* HueRotationView.swift */; };
 		B85DE51E25FD194B00A04A66 /* AlignmentAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85DE51D25FD194B00A04A66 /* AlignmentAnimation.swift */; };
 		B85DE52125FD1B2F00A04A66 /* RotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85DE52025FD1B2F00A04A66 /* RotationAnimation.swift */; };
@@ -46,6 +49,9 @@
 		B815765325FE65EF008A4DD8 /* ParallaxScrollingEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScrollingEffectView.swift; sourceTree = "<group>"; };
 		B815765725FE6928008A4DD8 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		B815765F25FE6F49008A4DD8 /* ZoomImageInArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageInArticle.swift; sourceTree = "<group>"; };
+		B8238B27261F6CF5004642D6 /* SequencingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequencingView.swift; sourceTree = "<group>"; };
+		B8238B2A261F71E0004642D6 /* SpeedAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedAnimationView.swift; sourceTree = "<group>"; };
+		B8238B2E261F761B004642D6 /* LoginFormSequenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormSequenceView.swift; sourceTree = "<group>"; };
 		B85DE51925FD164400A04A66 /* HueRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationView.swift; sourceTree = "<group>"; };
 		B85DE51D25FD194B00A04A66 /* AlignmentAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentAnimation.swift; sourceTree = "<group>"; };
 		B85DE52025FD1B2F00A04A66 /* RotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationAnimation.swift; sourceTree = "<group>"; };
@@ -159,7 +165,10 @@
 		B88730EE2611137A00B7A7F9 /* Chapter 4 */ = {
 			isa = PBXGroup;
 			children = (
+				B8238B2E261F761B004642D6 /* LoginFormSequenceView.swift */,
+				B8238B2A261F71E0004642D6 /* SpeedAnimationView.swift */,
 				B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */,
+				B8238B27261F6CF5004642D6 /* SequencingView.swift */,
 			);
 			path = "Chapter 4";
 			sourceTree = "<group>";
@@ -237,6 +246,8 @@
 				B815765825FE6929008A4DD8 /* PopupView.swift in Sources */,
 				B815764C25FE6258008A4DD8 /* GestureMagnificationView.swift in Sources */,
 				B85DE52D25FD20B000A04A66 /* TrimAnimation.swift in Sources */,
+				B8238B28261F6CF5004642D6 /* SequencingView.swift in Sources */,
+				B8238B2F261F761B004642D6 /* LoginFormSequenceView.swift in Sources */,
 				B85DE52125FD1B2F00A04A66 /* RotationAnimation.swift in Sources */,
 				B85DE51E25FD194B00A04A66 /* AlignmentAnimation.swift in Sources */,
 				B880919725F13FDE00D7C7AC /* ContentView.swift in Sources */,
@@ -246,6 +257,7 @@
 				B815763325FE0AC5008A4DD8 /* VisualPresentation1.swift in Sources */,
 				B85DE52925FD1EEA00A04A66 /* TextAnimation.swift in Sources */,
 				B85DE51A25FD164400A04A66 /* HueRotationView.swift in Sources */,
+				B8238B2B261F71E0004642D6 /* SpeedAnimationView.swift in Sources */,
 				B880919525F13FDE00D7C7AC /* BookSolutions_QuickStartApp.swift in Sources */,
 				B815763E25FE51D6008A4DD8 /* RandomCirclesView.swift in Sources */,
 				B85DE52525FD1CB500A04A66 /* SizeAnimation.swift in Sources */,
