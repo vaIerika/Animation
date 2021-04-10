@@ -35,6 +35,7 @@
 		B880919C25F13FDF00D7C7AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B880919B25F13FDF00D7C7AC /* Preview Assets.xcassets */; };
 		B88091A625F1409600D7C7AC /* MoveCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88091A525F1409600D7C7AC /* MoveCircleShape.swift */; };
 		B88730F02611138600B7A7F9 /* RepeatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */; };
+		B88DAEDC262215AC00263D20 /* HorizontalMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		B880919D25F13FDF00D7C7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88091A525F1409600D7C7AC /* MoveCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCircleShape.swift; sourceTree = "<group>"; };
 		B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingAnimationView.swift; sourceTree = "<group>"; };
+		B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		B88730EE2611137A00B7A7F9 /* Chapter 4 */ = {
 			isa = PBXGroup;
 			children = (
+				B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */,
 				B8238B2E261F761B004642D6 /* LoginFormSequenceView.swift */,
 				B8238B2A261F71E0004642D6 /* SpeedAnimationView.swift */,
 				B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */,
@@ -268,6 +271,7 @@
 				B85DE53525FD25F800A04A66 /* LoginForm.swift in Sources */,
 				B815764325FE544F008A4DD8 /* DradGestureMenuView.swift in Sources */,
 				B88091A625F1409600D7C7AC /* MoveCircleShape.swift in Sources */,
+				B88DAEDC262215AC00263D20 /* HorizontalMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

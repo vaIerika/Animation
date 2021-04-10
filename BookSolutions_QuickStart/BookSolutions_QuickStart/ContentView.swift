@@ -159,6 +159,11 @@ struct ContentView: View {
                             label: {
                                 Text("Exercise: Show Login Form in Sequence")
                             })
+                        NavigationLink(
+                            destination: HorizontalMenuView(),
+                            label: {
+                                Text("Challenge 4. Horizontal Menu")
+                            })
 
                     }
                     
