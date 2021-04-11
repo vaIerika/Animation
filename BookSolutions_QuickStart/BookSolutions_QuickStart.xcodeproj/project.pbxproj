@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B815763325FE0AC5008A4DD8 /* VisualPresentation1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815763225FE0AC5008A4DD8 /* VisualPresentation1.swift */; };
 		B815763825FE0C5B008A4DD8 /* ButtonMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815763725FE0C5B008A4DD8 /* ButtonMenuView.swift */; };
 		B815763B25FE5011008A4DD8 /* SliderGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815763A25FE5011008A4DD8 /* SliderGlassView.swift */; };
 		B815763E25FE51D6008A4DD8 /* RandomCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B815763D25FE51D6008A4DD8 /* RandomCirclesView.swift */; };
@@ -36,10 +35,10 @@
 		B88091A625F1409600D7C7AC /* MoveCircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88091A525F1409600D7C7AC /* MoveCircleShape.swift */; };
 		B88730F02611138600B7A7F9 /* RepeatingAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */; };
 		B88DAEDC262215AC00263D20 /* HorizontalMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */; };
+		B8BF2673262310150033F4D9 /* RollingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF2672262310150033F4D9 /* RollingButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B815763225FE0AC5008A4DD8 /* VisualPresentation1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualPresentation1.swift; sourceTree = "<group>"; };
 		B815763725FE0C5B008A4DD8 /* ButtonMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMenuView.swift; sourceTree = "<group>"; };
 		B815763A25FE5011008A4DD8 /* SliderGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGlassView.swift; sourceTree = "<group>"; };
 		B815763D25FE51D6008A4DD8 /* RandomCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomCirclesView.swift; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		B88091A525F1409600D7C7AC /* MoveCircleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCircleShape.swift; sourceTree = "<group>"; };
 		B88730EF2611138600B7A7F9 /* RepeatingAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingAnimationView.swift; sourceTree = "<group>"; };
 		B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalMenuView.swift; sourceTree = "<group>"; };
+		B8BF2672262310150033F4D9 /* RollingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollingButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +136,6 @@
 			children = (
 				B880919425F13FDE00D7C7AC /* BookSolutions_QuickStartApp.swift */,
 				B880919625F13FDE00D7C7AC /* ContentView.swift */,
-				B815763225FE0AC5008A4DD8 /* VisualPresentation1.swift */,
 				B88730EE2611137A00B7A7F9 /* Chapter 4 */,
 				B815763525FE0BE5008A4DD8 /* Chapter 3 */,
 				B85DE51825FD163C00A04A66 /* Chapter 2 */,
@@ -167,6 +166,7 @@
 		B88730EE2611137A00B7A7F9 /* Chapter 4 */ = {
 			isa = PBXGroup;
 			children = (
+				B8BF2672262310150033F4D9 /* RollingButtonView.swift */,
 				B88DAEDB262215AC00263D20 /* HorizontalMenuView.swift */,
 				B8238B2E261F761B004642D6 /* LoginFormSequenceView.swift */,
 				B8238B2A261F71E0004642D6 /* SpeedAnimationView.swift */,
@@ -257,7 +257,6 @@
 				B815763B25FE5011008A4DD8 /* SliderGlassView.swift in Sources */,
 				B85DE53125FD222300A04A66 /* FlyingAway.swift in Sources */,
 				B815765025FE6373008A4DD8 /* RotationGestureGearsView.swift in Sources */,
-				B815763325FE0AC5008A4DD8 /* VisualPresentation1.swift in Sources */,
 				B85DE52925FD1EEA00A04A66 /* TextAnimation.swift in Sources */,
 				B85DE51A25FD164400A04A66 /* HueRotationView.swift in Sources */,
 				B8238B2B261F71E0004642D6 /* SpeedAnimationView.swift in Sources */,
@@ -269,6 +268,7 @@
 				B815764725FE60DC008A4DD8 /* LongPressGestureWavesView.swift in Sources */,
 				B815763825FE0C5B008A4DD8 /* ButtonMenuView.swift in Sources */,
 				B85DE53525FD25F800A04A66 /* LoginForm.swift in Sources */,
+				B8BF2673262310150033F4D9 /* RollingButtonView.swift in Sources */,
 				B815764325FE544F008A4DD8 /* DradGestureMenuView.swift in Sources */,
 				B88091A625F1409600D7C7AC /* MoveCircleShape.swift in Sources */,
 				B88DAEDC262215AC00263D20 /* HorizontalMenuView.swift in Sources */,

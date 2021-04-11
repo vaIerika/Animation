@@ -20,13 +20,15 @@ struct ContentView: View {
                     /// chapter 1
                     Text("Chapter 1. Getting started")
                         .font(.title2)
-                    NavigationLink(
-                        destination: MoveCircleShape(),
-                        label: {
-                            Text("Challenge 1. Move Circle")
-                        })
-                        .padding(.top, 10)
-                        .padding(.bottom, 20)
+                    VStack {
+                        NavigationLink(
+                            destination: MoveCircleShape(),
+                            label: {
+                                Text("Challenge 1. Move Circle")
+                            })
+                            .padding(.top, 10)
+                            .padding(.bottom, 20)
+                    }
                     
                     /// chapter 2
                     Text("Chapter 2. Basic animation")
@@ -137,7 +139,6 @@ struct ContentView: View {
                     /// chapter 4
                     Text("Chapter 4. Animation options")
                         .font(.title2)
-                    
                     VStack(alignment: .leading) {
                         NavigationLink(
                             destination: RepeatingAnimationView(),
@@ -162,13 +163,27 @@ struct ContentView: View {
                         NavigationLink(
                             destination: HorizontalMenuView(),
                             label: {
-                                Text("Challenge 4. Horizontal Menu")
+                                Text("Challenge 4.1. Horizontal Menu")
+                            })
+                        NavigationLink(
+                            destination: RollingButtonView(),
+                            label: {
+                                Text("Challenge 4.2. Rolling Button")
                             })
 
                     }
+                    .padding(.bottom, 40)
                     
-                    Spacer()
+                    VStack {
+                        Text("------------").padding()
+                        Text("Content is based on the Mark Moeykens's book 'SwiftUI Animations Quick Start'.")
+                            .italic()
+                    }
+                    .opacity(0.8)
+                    .padding(.bottom, 40)
+
                 }
+                .navigationTitle(Text("SwiftUI Animations"))
             }.padding()
         }
     }

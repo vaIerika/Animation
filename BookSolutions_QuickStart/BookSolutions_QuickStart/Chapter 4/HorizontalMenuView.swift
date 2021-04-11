@@ -13,7 +13,7 @@ struct HorizontalMenuView: View {
 
     var body: some View {
         VStack {
-            Text("Challenge 4").font(.title)
+            Text("Challenge 4.1").font(.title)
             Text("Horizontal Menu")
             ZStack {
                 Rectangle().ignoresSafeArea()
