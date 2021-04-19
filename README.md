@@ -31,6 +31,18 @@ Solutions of challenges.
 
 ## Projects by Tutorials
 <br>
+#### **Carousel Zoom Scroll** 
+
+[ 🔨 Source code](./Carousel Zoom Scroll/)
+
+<img src="Images/CarouselZoomScroll.gif" width="300px"/>
+
+>
+> Author of the tutorial: [
+Lets Build That App](https://www.youtube.com/watch?v=euGLqwOEpZE)
+>  
+
+<br>
 
 #### **Temperature Control UI** 
 [ 🔨 Source code](./TemperatureControl/)
