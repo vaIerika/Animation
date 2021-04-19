@@ -34,7 +34,7 @@ Solutions of challenges.
 
 #### **Carousel Zoom Scroll** 
 
-[ 🔨 Source code](./Carousel-Zoom-Scroll/)
+[ 🔨 Source code](./Carousel\ Zoom\ Scroll/)
 
 
 <img src="Images/CarouselZoomScroll.gif" width="300px"/>
